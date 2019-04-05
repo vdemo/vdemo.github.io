@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Tondo';
+  src: url('Fonts/Tondo_Corp_Rg.ttf'); /* IE9 Compat Modes */
+  src: url('Fonts/Tondo_Corp_Rg.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Super Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fonts/Tondo_Corp_Rg.ttf#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+	background-color: #DE1919;
+	margin: 0;
+  	padding: 0;
+  	font-family: 'Tondo', Fallback, sans-serif;
+}
+
+.logo img {
+	height: 20px;
+	width: auto;
+	margin-left: 30px;
+	margin-bottom: -30px;
+}
+
+.boxContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.boxContainer img {
+	    height: 100%;
+    width: 320px;
+    margin-top: 1em;
+}
+
+/*.language {
+	font-size: 18px;
+	color: #ffffff;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+*/
+.dropbtn {
+    background-color: #BC1313;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: -16px;
+   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 142px!important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: auto;
+    text-decoration: none;
+    display: block;
+    padding-bottom:5px;
+	padding-top:5px;
+
+}
+
+.dropdown-content a:hover {
+	background-color: #3399ff;
+	color: #ffffff;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #DC1313;
+
+}
+.textdiv{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 350px;
+    overflow-x: hidden;
+}
+
+.section{
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 479px){
+	label{
+      height: 57px;
+  }
+
+.logo img {
+    height: 10px;
+    width: auto;
+    margin-left: 14px;
+    margin-bottom: -8px;
+}
+
+.textdiv {
+    color: white;
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.boxContainer img {
+    height: 100%;
+    width: 200px;
+    margin-top: 1.5em;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	label{
+      height: 57px;
+  }
+.logo img {
+    height: 10px;
+    width: auto;
+    margin-left: 14px;
+    margin-bottom: -8px;
+}
+
+.pp {
+    color: white;
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+}
