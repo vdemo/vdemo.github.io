@@ -18,6 +18,7 @@ function init(val)
     //player.SetVar("dummy_var3", val);
 	a= val;
 }
+alert(a);
 function Script1()
 {
   // var player = GetPlayer();
