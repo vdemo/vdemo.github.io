@@ -14,8 +14,8 @@ var a;
 function init(val)
 {
 	
-	//var player=GetPlayer();
-    //player.SetVar("dummy_var3", val);
+	var player=GetPlayer();
+    player.SetVar("dummy_var3", val);
 	a= val;
 }
 alert(a);
