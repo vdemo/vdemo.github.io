@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta http-equiv="Content-Language" content="hi" />
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="E_learning_wrapper">
+  <h1 id="headertxt1">DB Journey Assessment</h1>
+ 
+  <form method="post">
+    <div id="container1">
+    <h3 id="heading1">1. What is the correct time to reach Distribution Centre?</h3>
+    <div class="numberlist">
+ 
+  <ol type="square" >
+    <li><label for="1">
+        <input type="radio" value="a" name="ques1" id="1" Autocomplete="Off"> <span id="cont1a">3:30 AM</span>
+      </label></li>
+    <li><label for="2">
+        <input type="radio" value="b" name="ques1"  id="2" Autocomplete="Off"> <span id="cont1b">4:05 AM</span>
+      </label></li>
+       <li><label for="3">
+        <input type="radio" value="true" name="ques1"  id="3" Autocomplete="Off"> <span id="cont1c">4:00 AM</span>
+      </label></li>
+       <li><label for="4">
+        <input type="radio" value="d" name="ques1"  id="4" Autocomplete="Off"> <span id="cont1d">4:30 AM</span>
+      </label></li>
+  </ol>
+</div>
+
+
+
+  <h3 id="heading2">2. Which is the correct sequence of steps after you reach Distribution Centre?</h3>
+      <div class="numberlist">
+
+  <ol type="square" >
+    <li><label for="5">
+        <input type="radio" value="true" name="ques2" id="5"> <span id="cont2a">Punch attendance -> login to App -> check demand -> collect milk</span>
+      </label></li>
+    <li><label for="6">
+          <input type="radio" value="b" name="ques2" id="6" > <span id="cont2b">login to App ->  collect milk -> check demand -> Punch attendance</span>
+      </label></li>
+         <li><label for="7">
+          <input type="radio" value="c" name="ques2" id="7" > <span id="cont2c">Punch attendance  ->  collect milk -> login to App ->  check demand</span>
+      </label></li>
+
+
+  </ol>
+</div>
+
+</div>
+
+
+  <h3 id="heading3">3. How to reach new customer’s address?</h3>
+      <div class="numberlist">
+
+  <ol type="square" >
+    <li><label for="8">
+        <input type="radio" value="a" name="ques3" id="8"> <span id="cont3a">Call customer and ask location</span>
+      </label></li>
+    <li><label for="9">
+          <input type="radio" value="b" name="ques3"  id=9 > <span id="cont3b">Ask your friend</span>
+      </label></li>
+         <li><label for="10">
+        <input type="radio" value="c" name="ques3" id="10"> <span id="cont3c">Ask centre manager</span>
+      </label></li>
+    <li><label for="11">
+          <input type="radio" value="true" name="ques3"  id="11" > <span id="cont3d">Click on navigation bar in APP</span>
+      </label></li>
+  
+    
+  </ol>
+</div>
+
+
+  <h3 id="heading4">4. Is it mandatory to collect payment from customers on a daily basis?</h3>
+      <div class="numberlist">
+
+  <ol type="square" >
+    <li><label for="12">
+        <input type="radio" value="true" name="ques4" id="12"> <span id="cont4a">No, on a Billing basis i.e. when it shown on app</span>
+      </label></li>
+    <li><label for="13">
+    <input type="radio" value="b" name="ques4"  id="13" > <span id="cont4b">Yes, Payment has to be collected every day from every customer</span>
+      </label></li>
+       <li><label for="14">
+   <input type="radio" value="c" name="ques4"  id="14" > <span id="cont4c">Yes, Payment has to be collected every day from few customers</span>
+      </label></li>
+
+    
+  </ol>
+</div>
+
+
+  <h3 id="heading5">5. Is company dress mandatory?'</h3>
+      <div class="numberlist">
+
+  <ol type="square" >
+    <li><label for="15">
+        <input type="radio" value="true" name="ques5" id="15"> <span id="cont5a">Yes</span>
+      </label></li>
+    <li><label for="16">
+          <input type="radio" value="b" name="ques5"  id="16" > <span id="cont5b">No</span>
+      </label></li>
+    
+
+    
+  </ol>
+</div>
+
+
+
+
+
+
+
+
+  <div id="welcomeDiv1"  style="display:none;padding: 12px; font-size: 22px; color: #005cab;margin-left: 80px;" class="answer_list" >
+    Select answers of all questions then click on Submit.
+  </div>
+<input type="button" class="button" value="submit" id="submit" onclick="myfuntion();"> 
+
+
+
+
+</form>
+<div id="snackbar">Please select option to continue</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+
+ 
+
+
+   function myfuntion() {
+
+  var baseUrl = (window.location).href; // You can also use document.URL
+var tokenId = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+alert(tokenId);
+ var val1= $('input[name=ques1]:checked').val(); 
+     var val2= $('input[name=ques2]:checked').val(); 
+    var val3= $('input[name=ques3]:checked').val();
+    var val4= $('input[name=ques4]:checked').val();
+    var val5= $('input[name=ques5]:checked').val();
+   
+
+      if(!$("input[name='ques1']:checked").val())
+      {
+   
+      document.getElementById('welcomeDiv1').style.display = "block";
+      
+      } 
+
+     else if(!$("input[name='ques2']:checked").val()) 
+      {
+      document.getElementById('welcomeDiv1').style.display = "block";
+    
+      }
+
+    else if(!$("input[name='ques3']:checked").val()) 
+      {
+    document.getElementById('welcomeDiv1').style.display = "block";
+     
+      }
+
+     else  if(!$("input[name='ques4']:checked").val()) 
+      {
+      document.getElementById('welcomeDiv1').style.display = "block";
+     
+      }
+
+     else  if(!$("input[name='ques5']:checked").val()) 
+      {
+      document.getElementById('welcomeDiv1').style.display = "block";
+      
+    
+    return false;
+      }
+
+     
+else{
+var Total_marks1 =0;
+var Total_marks2 =0;
+var Total_marks3 =0;
+var Total_marks4 =0;
+var Total_marks5 =0;
+    if (val1=='true')
+     {
+    
+       Total_marks1=20;
+     }else{
+      Total_marks1=0;
+     }
+
+     if (val2=='true')
+     {
+      
+       Total_marks2=20;
+     }else{
+      Total_marks2=0;
+     }
+
+     if (val3=='true')
+     {
+      
+       Total_marks3=20;
+     }else{
+      Total_marks3=0;
+     }
+
+     if (val4=='true')
+     {
+
+      
+       Total_marks4=20;
+     }else{
+      Total_marks4=0;
+     }
+
+     if (val5=='true')
+     {
+     
+       Total_marks5=20;
+     }else{
+      Total_marks5=0;
+     }
+
+var Sum_of_totalMarks= Total_marks1+Total_marks2+Total_marks3+Total_marks4+Total_marks5;
+// console.log(Sum_of_totalMarks);
+var total=100;
+var result = (Sum_of_totalMarks/total*100);
+var finalResult=result+'%';
+// console.log(finalResult);
+
+
+     
+
+                 var postData=[
+
+          {
+            "ModuleName" : "module1",
+            "result":finalResult
+          
+          }
+         
+          
+
+          ]
+
+
+ document.getElementById('welcomeDiv1').style.display = "none";
+              var str = JSON.stringify(postData);
+              console.log(postData);
+		
+var url = "https://dtest.countrydelight.in/api/auth/assessment/";
+
+var id ="id";
+   $.ajax({
+      type: "POST",
+      dataType: "json",
+	  async: false,
+      url: url, //Relative or absolute path to response.php file
+   data: {postData},
+     beforeSend: function (xhr){ 
+	     xhr.setRequestHeader('Token_Id', id);
+    },
+      success: function(data) {
+	  if(data)
+	  {
+        alert("Your data has been saved successfully.");
+        //console.log("Your data has been saved successfully.");
+      }
+	  else{
+	  alert("Unable to save data.");
+	  }
+	  }
+    });
+
+	
+      }
+
+}
+
+
+
+</script>
+</html>
