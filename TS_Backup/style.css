@@ -34,8 +34,6 @@ body{
       background: white;
     border: white;
     border-radius: 25px !important;
-    -webkit-border-radius: 25px!important;
-      -moz-border-radius: 25px!important;
     font-size: 20px !important;
   /*  word-spacing: 3px;*/
     color: #585050;
@@ -56,39 +54,35 @@ body{
 }
 
 .tabs_btn1{
-  width: 230px;
-    background: #fff9f6;
-    color: #585858;
+  width: 270px;
+     color: #fff;
+    background-color: transparent;
     border-color: #ffcaad !important;
 }
 .tabs_btn2{
-  width: 95px;
-    color: #fff;
-    background-color: #fff9f6;
+  width: 50px;
+     color: #fff;
+    background-color: transparent;
     border-color: #ffcaad !important;
 }
 .tabs_btn1:focus{
   background: #fff9f6;
     color: #585858;
 }
-/*.tabs_btn2:focus{
+.tabs_btn2:focus{
   background: #fff9f6;
     color: #585858;
-}*/
+}
 .imgsWidth{
   width: 95%;
 
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
 }
 
 .carousel-indicators li {
   width: 10px!important;
   height: 10px!important;
   border-radius: 100%;
-  -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
   cursor: pointer;
       /*background-color: rgba(101, 0, 0, 0.5) !important;*/
       bottom: -45px !important;
@@ -111,7 +105,7 @@ body{
 }
 
 .caption_text{
-      background: #5087c8;
+      background: #fa7059;
     padding: 4px;
     color: #ffffff!important;
     border-radius: 5px;
@@ -138,101 +132,14 @@ body{
     from {opacity: 0;top: -20px;}
     to {opacity: 1;top: 0;}
 }
-.globe_icon{
-  font-size: 20px!important;
-  
-}
-.play_icon{
-         position: relative;
-    font-size: 9px !important;
-    top: -3px;
-    left: -3px;
-}
-.web_text_style{
-      font-size: 1rem;
-    font-family: sans-serif;
-    position: relative;
-    top: 0px;
-        font-style: italic;
 
-}
-.linkBtn{
-      color: white;
-    text-decoration: none;
-    background: #e72719;
-    padding: 4px;
-    border: 1;
-        color: white;
-    text-decoration: none !important;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-      -moz-border-radius: 5px; 
-}
-.linkBtn:hover{
-  color: white;
-}
-/**************************************** *Click Btn on each Slides* ****************************************/
-.clickBtn1 {
-    position: absolute;
-    opacity: 0.6;
-    right: 20%;
-    top: 9%;
-}
-.clickBtn2 {
-    position: absolute;
-    opacity: 0.6;
-    right: 35%;
-    top: 16%;
-}
-.clickBtn3 {
-    position: absolute;
-    opacity: 0.6;
-    right: 60%;
-    top: 30%;
-}
-.clickBtn4 {
-    position: absolute;
-    opacity: 0.6;
-    right: 60%;
-    top: 36%;
-}
-.clickBtn5 {
-    position: absolute;
-    opacity: 0.6;
-    right: 60%;
-    top: 42%;
-}
-.clickBtn6 {
-    position: absolute;
-    opacity: 0.6;
-    right: 60%;
-    top: 42%;
-}
-.clickBtn7 {
-    position: absolute;
-    opacity: 0.6;
-    right: 60%;
-    top: 43%;
-}
-.clickBtn8 {
-    position: absolute;
-    opacity: 0.6;
-    right: 41%;
-    top: 71%;
-}
-
-.gifBtnstyle{
-  width: 45px;
-}
-
-/**************************************** *Click Btn on each Slides* ****************************************/
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;}
+.red-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#f00; }
 @media only screen and (max-width: 600px) {
 .imgsWidth {
     width: 85%;
   
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
 }
 .wrapperDiv {
    /* max-width: 400px;*/
@@ -242,12 +149,16 @@ body{
    
 }
 .tabs_btn1{
-  width: 170px;
-
+  width: 250px;
+     color: #fff;
+    background-color: transparent;
+    border-color: #ffcaad !important;
 }
 .tabs_btn2{
-  width: 83px;
-    
+  width: 35px;
+     color: #fff;
+    background-color: transparent;
+    border-color: #ffcaad !important;
 }
 
 
