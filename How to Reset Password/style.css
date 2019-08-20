@@ -10,8 +10,11 @@ body{
 
 }
 .center_divStyle{
-  position: relative;
-  top: 280px;
+text-align: center;
+  position: absolute!important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .regis_text{
       font-size: 23px;
@@ -29,7 +32,9 @@ body{
     from {opacity: 0;top: -50px;}
     to {opacity: 1;top: 0;}
 }
-
+.carousel-control-next, .carousel-control-prev {
+  width: 10% !important;
+}
 .regis_btn{
       background: white;
     border: white;
@@ -322,5 +327,11 @@ body{
 
 }
 
+.carousel-control-prev {
+    left: -30px!important;
+}
 
+.carousel-control-next {
+    right: -30px!important;
+}
 }
