@@ -174,119 +174,52 @@ body{
 /**************************************** *Click Btn on each Slides* ****************************************/
 .clickBtn1 {
     position: absolute;
-    opacity: 0.8;
-    right: 17%;
-    top: 12%;
+    opacity: 0.6;
+    right: 20%;
+    top: 9%;
 }
 .clickBtn2 {
     position: absolute;
-    opacity: 0.8;
-    right: 57%;
-    top: 18%;
+    opacity: 0.6;
+    right: 35%;
+    top: 16%;
 }
 .clickBtn3 {
     position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 34%;
+    opacity: 0.6;
+    right: 60%;
+    top: 30%;
 }
 .clickBtn4 {
     position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 70%;
+    opacity: 0.6;
+    right: 60%;
+    top: 36%;
 }
 .clickBtn5 {
     position: absolute;
-    opacity: 0.8;
-    right: 2%;
-    top: 19%;
+    opacity: 0.6;
+    right: 60%;
+    top: 42%;
 }
 .clickBtn6 {
     position: absolute;
-    opacity: 0.8;
-    right: 53%;
-    top: 54%;
+    opacity: 0.6;
+    right: 60%;
+    top: 42%;
 }
 .clickBtn7 {
     position: absolute;
-    opacity: 0.8;
-    right: 23%;
-    top: 48%;
+    opacity: 0.6;
+    right: 60%;
+    top: 43%;
 }
 .clickBtn8 {
     position: absolute;
-    opacity: 0.8;
-    right: 77%;
-    top: 73%;
+    opacity: 0.6;
+    right: 41%;
+    top: 71%;
 }
-.clickBtn9 {
-    position: absolute;
-    opacity: 0.8;
-    right: 32%;
-    top: 59%;
-}
-.clickBtn10 {
-    position: absolute;
-    opacity: 0.8;
-    right: 7%;
-    top: 93%;
-}
-.clickBtn11 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 80%;
-}
-.clickBtn12 {
-    position: absolute;
-    opacity: 0.8;
-    right: 68%;
-    top: 48%;
-}
-.clickBtn13 {
-    position: absolute;
-    opacity: 0.8;
-    right: 66%;
-    top: 42%;
-}
-.clickBtn14 {
-    position: absolute;
-    opacity: 0.8;
-    right: 71%;
-    top: 31%;
-}
-.clickBtn15 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 41%;
-}
-.clickBtn16 {
-    position: absolute;
-    opacity: 0.8;
-    right: 70%;
-    top: 31%;
-}
-.clickBtn17 {
-    position: absolute;
-    opacity: 0.8;
-    right: 70%;
-    top: 44%;
-}
-.clickBtn18 {
-    position: absolute;
-    opacity: 0.8;
-    right: 60%;
-    top: 83%;
-}
-/*.clickBtn19 {
-    position: absolute;
-    opacity: 0.8;
-    right: 77%;
-    top: 73%;
-}*/
-
 
 .gifBtnstyle{
   width: 45px;
@@ -309,17 +242,12 @@ body{
    
 }
 .tabs_btn1{
-  width: 190px;
+  width: 170px;
 
 }
 .tabs_btn2{
-  width: 100px;
+  width: 83px;
     
-}
-.carousel-caption {
-   
-    width: 85%!important;
-
 }
 
 

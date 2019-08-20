@@ -19,4 +19,3 @@ $(".carousel").swipe({
   allowPageScroll:"vertical"
 
 });
-
