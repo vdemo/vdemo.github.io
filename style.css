@@ -211,87 +211,92 @@ text-align: center;
     position: absolute;
     opacity: 0.8;
     right: 53%;
-    top: 54%;
+    top: 27%;
 }
 .clickBtn7 {
     position: absolute;
     opacity: 0.8;
-    right: 23%;
-    top: 48%;
+    right: 70%;
+    top: 62%;
 }
 .clickBtn8 {
     position: absolute;
     opacity: 0.8;
-    right: 77%;
-    top: 73%;
+    right: 67%;
+    top: 25%;
 }
 .clickBtn9 {
     position: absolute;
     opacity: 0.8;
-    right: 32%;
-    top: 59%;
+    right: 42%;
+    top: 72%;
 }
 .clickBtn10 {
     position: absolute;
     opacity: 0.8;
-    right: 7%;
-    top: 93%;
+    right: 34%;
+    top: 79%;
 }
 .clickBtn11 {
     position: absolute;
     opacity: 0.8;
-    right: 42%;
-    top: 80%;
+    right: 82%;
+    top: 78%;
 }
 .clickBtn12 {
     position: absolute;
     opacity: 0.8;
-    right: 68%;
-    top: 48%;
+    right: 30%;
+    top: 77%;
 }
 .clickBtn13 {
     position: absolute;
     opacity: 0.8;
-    right: 66%;
-    top: 42%;
+    right: 1%;
+    top: 39%;
 }
 .clickBtn14 {
     position: absolute;
     opacity: 0.8;
-    right: 71%;
-    top: 31%;
+    right: 82%;
+    top: 58%;
 }
 .clickBtn15 {
     position: absolute;
     opacity: 0.8;
-    right: 42%;
-    top: 41%;
+    right: 30%;
+    top: 60%;
 }
 .clickBtn16 {
     position: absolute;
     opacity: 0.8;
-    right: 70%;
-    top: 31%;
+    right: 82%;
+    top: 74%;
 }
 .clickBtn17 {
     position: absolute;
     opacity: 0.8;
-    right: 70%;
-    top: 44%;
+    right: 80%;
+    top: 11%;
 }
 .clickBtn18 {
     position: absolute;
     opacity: 0.8;
-    right: 60%;
-    top: 83%;
+    right: 42%;
+    top: 88%;
 }
-/*.clickBtn19 {
+.clickBtn19 {
     position: absolute;
     opacity: 0.8;
-    right: 77%;
-    top: 73%;
-}*/
-
+    right: 42%;
+    top: 71%;
+}
+.clickBtn20 {
+    position: absolute;
+    opacity: 0.8;
+    right: 42%;
+    top: 39%;
+}
 
 .gifBtnstyle{
   width: 45px;
@@ -326,7 +331,6 @@ text-align: center;
     width: 85%!important;
 
 }
-
 .carousel-control-prev {
     left: -30px!important;
 }
@@ -334,4 +338,6 @@ text-align: center;
 .carousel-control-next {
     right: -30px!important;
 }
+
+
 }
