@@ -197,13 +197,6 @@ text-align: center;
     right: 42%;
     top: 37%;
 }
-.clickBtn4 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 70%;
-}
-
 
 
 .clickBtn5a {
@@ -212,11 +205,17 @@ text-align: center;
     right: 42%;
     top: 89%;
 }
+.clickBtn4 {
+    position: absolute;
+    opacity: 0.8;
+    right: 42%;
+    top: 70%;
+}
 .clickBtn5 {
     position: absolute;
     opacity: 0.8;
-    right: 25%;
-    top: 11%;
+    right: 3%;
+    top: 20%;
 }
 .clickBtn6 {
     position: absolute;
@@ -247,8 +246,8 @@ text-align: center;
 .clickBtn10 {
     position: absolute;
     opacity: 0.8;
-    right: 70%;
-    top: 72%;
+    right: 42%;
+    top: 46%;
 }
 
 
@@ -261,48 +260,17 @@ text-align: center;
 .clickBtn12 {
     position: absolute;
     opacity: 0.8;
-    right: 8%;
+    right: 20%;
     top: 50%;
 }
 
 .clickBtn13 {
     position: absolute;
     opacity: 0.8;
-    right: 70%;
-    top: 61%;
-}
-.clickBtn18a{
-  position: absolute;
-    opacity: 0.8;
-    right: 70%;
-    top: 28%;
-}
-.clickBtn19 {
-    position: absolute;
-    opacity: 0.8;
-    right: 10%;
+    right: 62%;
     top: 92%;
 }
-.clickBtn20 {
-    position: absolute;
-    opacity: 0.8;
-    right: 70%;
-    top: 27%;
-}
 
-.clickBtn21 {
-    position: absolute;
-    opacity: 0.8;
-    right: 70%;
-    top: 36%;
-}
-
-.clickBtn22 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 90%;
-}
 
 .gifBtnstyle{
   width: 45px;
