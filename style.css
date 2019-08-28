@@ -215,8 +215,8 @@ text-align: center;
 .clickBtn6 {
     position: absolute;
     opacity: 0.8;
-    right: 6%;
-    top: 21%;
+    right: 26%;
+    top: 11%;
 }
 .clickBtn7 {
     position: absolute;
@@ -249,9 +249,10 @@ text-align: center;
 .clickBtn11 {
     position: absolute;
     opacity: 0.8;
-    right: 9%;
-    top: 52%;
+    right: 6%;
+    top: 49%;
 }
+
 .clickBtn12 {
     position: absolute;
     opacity: 0.8;
@@ -332,9 +333,86 @@ text-align: center;
 .clickBtn24 {
     position: absolute;
     opacity: 0.8;
+    right: 47%;
+    top: 49%;
+}
+
+
+.clickBtn25 {
+      position: absolute;
+    opacity: 0.8;
+    right: 70%;
+    top: 62%;
+
+}
+.clickBtn26 {
+    position: absolute;
+    opacity: 0.8;
+    right: 7%;
+    top: 49%;
+}
+.clickBtn27 {
+    position: absolute;
+    opacity: 0.8;
+    right: 70%;
+    top: 75%;
+    
+}
+.clickBtn28 {
+    position: absolute;
+    opacity: 0.8;
+    right: 9%;
+    top: 58%;
+  
+}
+.clickBtn29 {
+    position: absolute;
+    opacity: 0.8;
+    right: 72%;
+    top: 38%;
+   
+}
+.clickBtn30 {
+    position: absolute;
+    opacity: 0.8;
+    right: 9%;
+    top: 58%;
+   
+}
+.clickBtn31 {
+    position: absolute;
+    opacity: 0.8;
+    right: 42%;
+    top: 90%;
+   
+}
+.clickBtn32 {
+    position: absolute;
+    opacity: 0.8;
+    right: 42%;
+    top: 34%;
+  
+}
+.clickBtn33 {
+     position: absolute;
+    opacity: 0.8;
+    right: 42%;
+    top: 90%;
+}
+.clickBtn34 {
+    position: absolute;
+    opacity: 0.8;
+    right: 60%;
+    top: 36%;
+    
+}
+.clickBtn35 {
+    position: absolute;
+    opacity: 0.8;
     right: 42%;
     top: 90%;
     display: none;
+  
 }
 
 .gifBtnstyle{
@@ -385,5 +463,33 @@ text-align: center;
     opacity: 0.8;
     right: 42%;
     top: 44%;
+}
+
+
+.clickBtn11 {
+    position: absolute;
+    opacity: 0.8;
+    right: 9%;
+    top: 52%;
+}
+.clickBtn24 {
+    position: absolute;
+    opacity: 0.8;
+    right: 47%;
+    top: 53%;
+
+}
+.clickBtn26 {
+    position: absolute;
+    opacity: 0.8;
+    right: 9%;
+    top: 52%;
+    
+}
+.carousel-indicators {
+   
+    margin-right: 8%!important;
+    margin-left: 8%!important;
+ 
 }
 }
