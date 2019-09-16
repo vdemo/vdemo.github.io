@@ -35,6 +35,7 @@ text-align: center;
 .carousel-control-next, .carousel-control-prev {
   width: 10% !important;
 }
+
 .regis_btn{
       background: white;
     border: white;
@@ -194,7 +195,15 @@ text-align: center;
     position: absolute;
     opacity: 0.8;
     right: 42%;
-    top: 34%;
+    top: 37%;
+}
+
+
+.clickBtn5a {
+    position: absolute;
+    opacity: 0.8;
+    right: 42%;
+    top: 89%;
 }
 .clickBtn4 {
     position: absolute;
@@ -205,99 +214,70 @@ text-align: center;
 .clickBtn5 {
     position: absolute;
     opacity: 0.8;
-    right: 2%;
-    top: 19%;
+    right: 3%;
+    top: 20%;
 }
 .clickBtn6 {
     position: absolute;
     opacity: 0.8;
-    right: 53%;
-    top: 27%;
+    right: 54%;
+    top: 54%;
 }
 .clickBtn7 {
     position: absolute;
     opacity: 0.8;
-    right: 70%;
-    top: 62%;
+    right: 66%;
+    top: 25%;
+}
+
+.clickBtn7a {
+    position: absolute;
+    opacity: 0.8;
+    right: 42%;
+    top: 37%;
 }
 .clickBtn8 {
     position: absolute;
     opacity: 0.8;
-    right: 67%;
-    top: 25%;
+    right: 70%;
+    top: 30%;
 }
+
 .clickBtn9 {
     position: absolute;
     opacity: 0.8;
     right: 42%;
-    top: 72%;
+    top: 40%;
 }
+
 .clickBtn10 {
     position: absolute;
     opacity: 0.8;
-    right: 34%;
-    top: 79%;
+    right: 42%;
+    top: 46%;
 }
+
+
 .clickBtn11 {
     position: absolute;
     opacity: 0.8;
-    right: 82%;
-    top: 78%;
+    right: 26%;
+    top: 93%;
 }
 .clickBtn12 {
     position: absolute;
     opacity: 0.8;
-    right: 30%;
-    top: 77%;
+    right: 20%;
+    top: 50%;
 }
+
 .clickBtn13 {
     position: absolute;
     opacity: 0.8;
-    right: 1%;
-    top: 39%;
+    right: 62%;
+    top: 92%;
 }
-.clickBtn14 {
-    position: absolute;
-    opacity: 0.8;
-    right: 82%;
-    top: 58%;
-}
-.clickBtn15 {
-    position: absolute;
-    opacity: 0.8;
-    right: 30%;
-    top: 60%;
-}
-.clickBtn16 {
-    position: absolute;
-    opacity: 0.8;
-    right: 82%;
-    top: 74%;
-}
-.clickBtn17 {
-    position: absolute;
-    opacity: 0.8;
-    right: 80%;
-    top: 11%;
-}
-.clickBtn18 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 88%;
-}
-.clickBtn19 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 71%;
-}
-.clickBtn20 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 39%;
-}
+
 
 .gifBtnstyle{
   width: 45px;
@@ -339,51 +319,13 @@ text-align: center;
 .carousel-control-next {
     right: -30px!important;
 }
-.clickBtn5 {
-    position: absolute;
-    opacity: 0.8;
-    right: 6%;
-    top: 19%;
-}
-.clickBtn3 {
-    position: absolute;
-    opacity: 0.8;
-    right: 42%;
-    top: 36%;
-}
-.clickBtn11 {
-    position: absolute;
-    opacity: 0.8;
-    right: 76%;
-    top: 78%;
-}
-.clickBtn13 {
-    position: absolute;
-    opacity: 0.8;
-    right: 5%;
-    top: 40%;
-}
-.clickBtn14 {
-    position: absolute;
-    opacity: 0.8;
-    right: 76%;
-    top: 59%;
-}
-
-.clickBtn16 {
-    position: absolute;
-    opacity: 0.8;
-    right: 76%;
-    top: 74%;
-}
-.clickBtn17 {
-    position: absolute;
-    opacity: 0.8;
-    right: 76%;
-    top: 12%;
-}
 .regis_text {
     font-size: 20px;
 }
-
+.clickBtn7 {
+    position: absolute;
+    opacity: 0.8;
+    right: 66%;
+    top: 28%;
+}
 }
